@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Intro Psych: Chapter 3 Master Study Guide</title>
+    <style>
+        /* ===== GLOBAL STYLES (Based on your provided index.html) ===== */
+        * { margin: 0; padding: 0; box-sizing: border-box; font-family: 'Segoe UI', sans-serif; }
+        body { background: linear-gradient(145deg, #f1f7fc 0%, #e6edf5 100%); padding: 2rem 1rem; line-height: 1.6; color: #0a2c3d; }
+        .guide-container { max-width: 1200px; margin: 0 auto; background: rgba(255,255,255,0.95); border-radius: 36px; padding: 2.8rem; box-shadow: 0 20px 40px rgba(0,32,64,0.15); }
+        h1 { font-size: 2.5rem; color: #0c4a6e; border-bottom: 5px solid #a2c8dd; margin-bottom: 1rem; }
+        h2 { font-size: 2rem; color: #0f4662; margin-top: 2.5rem; background: #ecf6fa; padding: 10px; border-left: 10px solid #19778e; border-radius: 0 10px 10px 0; }
+        
+        /* ===== CLICK-TO-REVEAL STYLES ===== */
+        .qa-card { background: white; border-radius: 15px; margin: 1rem 0; border-left: 8px solid #3083a2; box-shadow: 0 4px 6px rgba(0,0,0,0.05); }
+        .question-text { font-weight: 700; padding: 1rem 1.5rem; background: #f3faff; border-radius: 15px 15px 0 0; }
+        .reveal-btn { background: #deedf2; border: 1px solid #6ca3b3; padding: 0.5rem 1.5rem; margin: 0.5rem 1.5rem; cursor: pointer; border-radius: 50px; font-weight: 600; }
+        .answer-content { display: none; padding: 1rem 1.5rem; background: #f9fff7; color: #10403b; border-top: 2px dashed #6c9eb3; }
+        .answer-content.show { display: block; }
+
+        /* ===== DIAGRAM/TABLE STYLES ===== */
+        .diagram-box { background: #f0f4f8; border: 2px solid #d1d9e0; padding: 1.5rem; border-radius: 20px; margin: 1rem 0; }
+        table { width: 100%; border-collapse: collapse; margin-top: 1rem; }
+        th, td { border: 1px solid #cde3e9; padding: 12px; text-align: left; }
+        th { background: #134f5c; color: white; }
+    </style>
+</head>
+<body>
+<div class="guide-container">
+    <h1>🧠 Intro Psych: Biological Psychology</h1>
+    <p>Study the Nervous System, Neurons, and Brain Anatomy using active recall.</p>
+
+    <div style="margin: 1rem 0; display: flex; gap: 10px; flex-wrap: wrap;">
+        <a href="#ethics" style="text-decoration:none; color:white; background:#2f727a; padding:5px 15px; border-radius:20px;">⚖️ Ethics</a>
+        <a href="#neuron" style="text-decoration:none; color:white; background:#2f727a; padding:5px 15px; border-radius:20px;">🧪 The Neuron</a>
+        <a href="#systems" style="text-decoration:none; color:white; background:#2f727a; padding:5px 15px; border-radius:20px;">🕸️ Nervous Systems</a>
+        <a href="#brain" style="text-decoration:none; color:white; background:#2f727a; padding:5px 15px; border-radius:20px;">🧩 Brain Regions</a>
+    </div>
+
+    <h2 id="ethics">1. Ethical Guidelines</h2>
+    <div class="qa-card">
+        <div class="question-text">What are the four main ethical standards for human research?</div>
+        <button class="reveal-btn" onclick="toggle(this)">📌 Click to reveal</button>
+        <div class="answer-content">
+            1. <strong>Informed Consent:</strong> Info on purpose, risks, and right to withdraw[cite: 29, 30].<br>
+            2. <strong>Confidentiality:</strong> Right to privacy[cite: 38].<br>
+            3. <strong>Deception:</strong> Only if no alternative; must debrief[cite: 42, 45].<br>
+            4. <strong>Free of Harm:</strong> Protection from physical/psychological danger[cite: 46].
+        </div>
+    </div>
+
+    <h2 id="neuron">2. The Neuron & Neural Impulse</h2>
+    <div class="diagram-box">
+        <h3>Building Blocks of the Brain</h3>
+        <p>Neurons are individual nerve cells that transmit messages[cite: 68, 69].</p>
+                <table>
+            <tr><th>Part</th><th>Function</th></tr>
+            <tr><td>Dendrites</td><td>Short fibers that collect messages from other cells[cite: 82, 86].</td></tr>
+            <tr><td>Soma (Cell Body)</td><td>Carries out basic cell functions; contains the nucleus[cite: 87, 91].</td></tr>
+            <tr><td>Axon</td><td>Long fiber through which messages leave the neuron[cite: 92, 96].</td></tr>
+            <tr><td>Myelin Sheath</td><td>Fatty white substance that speeds up impulses[cite: 98, 106].</td></tr>
+        </table>
+    </div>
+
+    <div class="qa-card">
+        <div class="question-text">What is the difference between Resting and Action Potentials?</div>
+        <button class="reveal-btn" onclick="toggle(this)">📌 Click to reveal</button>
+        <div class="answer-content">
+            <strong>Resting Potential:</strong> Cell is more negative inside; membrane is semi-permeable (Polarized)[cite: 152, 153].<br>
+            <strong>Action Potential:</strong> Cell is stimulated/fired; more positive ions flow in (Depolarized)[cite: 154, 163].
+        </div>
+    </div>
+
+    <h2 id="systems">3. Divisions of the Nervous System</h2>
+    <div class="qa-card">
+        <div class="question-text">How do the Sympathetic and Parasympathetic systems differ?</div>
+        <button class="reveal-btn" onclick="toggle(this)">📌 Click to reveal</button>
+        <div class="answer-content">
+            <strong>Sympathetic:</strong> Activation/arousal; "Fight or Flight" (pounding heart, quick breathing)[cite: 208, 213, 216].<br>
+            <strong>Parasympathetic:</strong> Slows body down; maintains <em>Homeostasis</em> (equilibrium)[cite: 218, 220, 223].
+        </div>
+    </div>
+
+    <h2 id="brain">4. Brain Regions & Lobes</h2>
+    <div class="qa-card">
+        <div class="question-text">What are the three major regions of the brain?</div>
+        <button class="reveal-btn" onclick="toggle(this)">📌 Click to reveal</button>
+        <div class="answer-content">
+            1. <strong>Hindbrain:</strong> Primitive level; supports vital life functions (Medulla, Pons, Cerebellum)[cite: 237, 246].<br>
+            2. <strong>Midbrain:</strong> Sensory/motor clusters; auditory and visual reflexes[cite: 265, 277].<br>
+            3. <strong>Forebrain:</strong> Most advanced portion; includes Thalamus and Hypothalamus[cite: 281, 282, 287].
+        </div>
+    </div>
+
+    <div class="qa-card">
+        <div class="question-text">Name the four lobes of the Cerebral Cortex and their roles.</div>
+        <button class="reveal-btn" onclick="toggle(this)">📌 Click to reveal</button>
+        <div class="answer-content">
+                        <ul>
+                <li><strong>Frontal:</strong> Planning, decision making, motor control (Broca's area)[cite: 8].</li>
+                <li><strong>Parietal:</strong> Touch, temperature, body sense (Somatosensory cortex)[cite: 8].</li>
+                <li><strong>Temporal:</strong> Hearing, speech comprehension (Wernicke's area)[cite: 8].</li>
+                <li><strong>Occipital:</strong> Vision and sight processing[cite: 9].</li>
+            </ul>
+        </div>
+    </div>
+
+    <div style="background: #cfecf0; border-radius: 20px; padding: 2rem; margin-top: 2rem;">
+        <h3>✅ Exam Readiness Checklist</h3>
+        <ul>
+            <li>▢ Define Afferent (Sensory) vs. Efferent (Motor) neurons[cite: 73, 78].</li>
+            <li>▢ Explain the "All-or-None" Law of neural firing.</li>
+            <li>▢ Identify the function of the Corpus Callosum[cite: 7].</li>
+            <li>▢ List the parts of the Hindbrain[cite: 237].</li>
+        </ul>
+    </div>
+
+    <footer style="text-align:center; margin-top:2rem; color:#666;">
+        <p>Based on Intro Psych Chapter 3 Notes & Slides</p>
+    </footer>
+</div>
+
+<script>
+    function toggle(btn) {
+        const content = btn.nextElementSibling;
+        if (content.style.display === "block") {
+            content.style.display = "none";
+            btn.innerText = "📌 Click to reveal";
+        } else {
+            content.style.display = "block";
+            btn.innerText = "🔽 Hide answer";
+        }
+    }
+</script>
+</body>
+</html>
